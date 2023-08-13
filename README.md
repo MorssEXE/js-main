@@ -1,1 +1,1 @@
-# This is my first js-walkthrough
+# This is my repo of my up and coming js projects
