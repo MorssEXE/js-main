@@ -1,2 +1,2 @@
-# This is my repo of my up-and-coming js projects
+# This is the repo of my up-and-coming js projects
 
