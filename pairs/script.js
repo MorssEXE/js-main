@@ -61,7 +61,7 @@ const checkMatch = () => {
     if (flippedCards[0].dataset.image === flippedCards[1].dataset.image) {
         completedPairs++;
         if (completedPairs === 8) {
-            alert('Gratulujeme! Vyhráli jste!');
+            alert("Congrats! You've won");
         }
     } else {
         flippedCards[0].classList.remove('flipped');
