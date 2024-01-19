@@ -29,7 +29,7 @@ h1 {
   background-image: url("src/lol-icon.jpg");
   background-position: center;
   background-size: cover;
-  margin: 2px;
+  margin: 0.3%;
   position: relative;
   cursor: pointer;
   transition: transform 0.5s;
