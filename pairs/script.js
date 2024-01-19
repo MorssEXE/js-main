@@ -46,10 +46,11 @@ const selectRandomPairs = (pairs, numberOfPairs) => {
     return selectedPairs;
 }
 
-function flipCard() {
-    if (flippedCards.length < 2 && !this.classList.contains('flipped')) {
-        this.classList.add('flipped');
-        flippedCards.push(this);
+const flipCard = (event) => {
+    const currentFLipped = event.currentTarget;
+    if (flippedCards.length < 2 && !currentFLipped.classList.contains('flipped')) {
+        currentFLipped.classList.add('flipped');
+        flippedCards.push(currentFLipped);
 
         if (flippedCards.length === 2) {
             setTimeout(checkMatch, 1000);
